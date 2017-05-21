@@ -1,3 +1,8 @@
+html {
+	height: 100%;
+	margin: 0;
+
+}
 
 body{
 
@@ -10,8 +15,15 @@ body{
 	border-width: 2px;
 	border-color:#dddddd;
 	background-image: url("../images/ep_naturalwhite.png");
+	height: 100%;
+	margin: 0;
 	}
+.hr {
 
+	padding: 5px;
+	margin: 5px;
+	color: #B2A3AD;
+}
 #headname {
 	background-color: #4aaaa5;
 	width:200px;
@@ -66,23 +78,25 @@ h2, #port {
 }
 
 .main-bio, .contact, .portfolio{
-	float:left;
+	float: left;
 	width:530px;
 	background-color: #ffffff;
-	padding: 40px;
+	padding: 20px;
 	margin: 5px 20px 20px 20px;
 	box-sizing: border box;
 }
 
 
 .contact-info{
-	float:left;
+	float: left;
 	background-color: #ffffff;
 	margin: 5px 20px 5px 20px;
 	padding: 20px;
 	text-align: center;
 	width:190px;
+	box-sizing: border box;
 	}
+
 h3{
 	color:#4aaaa5;
 }
@@ -128,5 +142,12 @@ input[type=submit]{
 input[type=submit]:hover{
 	background-color: #1F5D5A;
 }
-
+.wrapper {
+	min-height: 100%;;
+	margin-bottom: -20px;
+}
+.footer,
+.push {
+	height: 20px;
+}
 
