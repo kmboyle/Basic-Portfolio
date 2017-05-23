@@ -21,28 +21,12 @@ body{
 	margin: 5px;
 	color: #B2A3AD;
 }
-#headname {
-	background-color: #4aaaa5;
-	width:200px;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 20px;
-	color:#ffffff;
-	font-size: 18px;
-	text-align: center;
-	line-height: 2.5;
-	height: 100%;
-	float:left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	
-	}
 
 header {
 	font-family: 'Georgia', Times,
 	"Times New Roman", serif;
-	width: 958px;
 	color: #B2A3AD;
+	width: 1020px;
 	background-color: #ffffff;
 	margin-bottom:20px;
 	margin-top: 0;
@@ -54,10 +38,26 @@ header {
 	border-color: #cccccc;
 	border-width: 2px;
 	}
+#headname {
+	background-color: #4aaaa5;
+	width:200px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	color:#ffffff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 1.5;
+	height: 100%;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	}
 
 #sites {
 	list-style-type:none;
-	margin-right: 80px;
+	margin-right: 125px;
 	float:right;
 	padding:0;
 	margin-top: 20px;	
@@ -68,11 +68,74 @@ li {
 }
 div li {
 	border-right: none;
-	padding-bottom: 5px;
+	display: block;
+	float: left;
+	padding-bottom: 20px;
+
 }
+div.image1, div.image2, div.image3, div.image4,
+div.image5{
+	position:relative;
+}
+
+h2.absolute1{
+	position: absolute;
+	width:200px;
+	top:100px;
+	right: 316px;
+	background-color:#4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+h2.absolute2{
+	position: absolute;
+	width:200px;
+	top:100px;
+	right: 88px;
+	background-color:#4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	}
+h2.absolute3{
+	position: absolute;
+	width:200px;
+	top:275px;
+	right: 316px;
+	background-color:#4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+h2.absolute4{
+	position: absolute;
+	width:200px;
+	top:274px;
+	right: 88px;
+	background-color:#4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size:18px;
+	}
+h2.absolute5{
+	position: absolute;
+	width:200px;
+	top:445px;
+	right: 316px;
+	background-color:#4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+
 li a {
+	clear: both;
 	text-decoration: none;
 	padding: 14px;
+
 }
 li: last-child {
 	border-right: none;
@@ -128,6 +191,7 @@ footer{
 	color: white;
 	border-top: 4px solid #4aaaa5;
 	line-height: 0.01;
+	width: 100%;
 }
 
 
