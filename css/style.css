@@ -173,6 +173,15 @@ h2, #port {
 	width:190px;
 	box-sizing: border box;
 	}
+#git:hover, #linked:hover, #stack:hover{
+	height:55px;
+	width: 55px;
+	border-radius:25px;
+}
+
+
+}
+}
 
 h3{
 	color:#4aaaa5;
