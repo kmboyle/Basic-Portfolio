@@ -24,7 +24,7 @@ body{
 
 header {
 	font-family: 'Georgia', Times,
-	"Times New Roman", serif;
+	'Times New Roman', serif;
 	color: #B2A3AD;
 	width: 1020px;
 	background-color: #ffffff;
@@ -135,7 +135,11 @@ li a {
 	clear: both;
 	text-decoration: none;
 	padding: 14px;
+}
+li a:hover {
 
+	color: #1F5D5A;
+}
 }
 li: last-child {
 	border-right: none;
@@ -179,6 +183,7 @@ h3{
 	margin-right: 20px;
 	width: 200px;
 	height: 300px;
+	border-radius: 25px;
 }
 footer{
 	clear:both;
@@ -211,7 +216,7 @@ input[type=submit]{
 	color: white;
 	padding: 12px 20px;
 	cursor: pointer;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 input[type=submit]:hover{
 	background-color: #1F5D5A;
